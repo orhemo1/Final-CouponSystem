@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>Log-in</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="parent">
+	<form action="http://localhost:8080/login" method="post" class="formlogin">
+		<h4>NAME :</h4><p> <input style="width:80% "  name="name" type="text" ></p>
+		<h4>PASSWORD :</h4><p><input style="width:80% " name="pwd" type="password"></p>
+		<h4>USER TYPE:</h4>
+  <input type="radio" name="usertype" value="Admin" checked> Admin<br>
+  <input type="radio" name="usertype" value="Company"> Company<br>
+  <input type="radio" name="usertype" value="Customer"> Customer<br><br>
+		<button  type="submit">SUBMIT</button>
+		<br><br><br>
+	</form>
+</div>
+</body>
+</html>

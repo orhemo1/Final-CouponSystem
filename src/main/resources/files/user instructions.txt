@@ -1,0 +1,5 @@
+this system is working with apache derby database .
+there is a class called "create tables" start that class so the tables will be created.
+the sinsleton.test package is a Demonstration of the system capabilities. 
+in the doc file open the "index.html" file in a web browser to get the java.doc with theinformation on 
+ the project.
